@@ -30,7 +30,7 @@ public class ClientServiceThread extends Thread {
 		{
 		    String inputLine = fromClient.readLine();
 		    String[] inputArray =  inputLine.split(",");
-
+		    System.out.println(inputLine);
 		    if(!inputArray[0].equals("FINISH")) {
 			
 			toClient.println("WELCOME "+ inputArray[3] );
