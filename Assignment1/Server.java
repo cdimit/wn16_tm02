@@ -24,7 +24,7 @@ public class Server {
     	    ClientServiceThread clientThread = new ClientServiceThread(clientSocket);
     	    clientThread.start();
     		
-    		
+    	    
     		
     	}
     	
