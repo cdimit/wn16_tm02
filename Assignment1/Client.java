@@ -34,7 +34,7 @@ public class Client {
 			 
 		 }
 		 avgRTT=avgRTT/users;
-		 System.out.println("Done, and the avgRTT is : "+avgRTT);
+		 System.out.println("Done, and the avgRTT is : "+avgRTT+" milliseconds");
 		 
 		 
 		 

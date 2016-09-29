@@ -42,7 +42,7 @@ public class ClientThread extends Thread {
     	    for(int i=0;i<request_number;i++){
     			long startRequestTime = System.currentTimeMillis(); 
     	    	toServer.println(message_request);
-    	    	System.out.println("Message Send: "+message_request);
+    	    	//System.out.println("Message Send: "+message_request);
     	    	
     	    	while ((message_response = fromServer.readLine()) != null) {
     	    		if(message_response.equals("BYE"))
